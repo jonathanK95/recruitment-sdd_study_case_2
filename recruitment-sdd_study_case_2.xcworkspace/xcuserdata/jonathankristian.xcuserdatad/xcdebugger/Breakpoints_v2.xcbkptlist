@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5B34B75D-A68F-4F03-91E5-68D1F7ECF9E0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56C4DBBE-6847-46E4-A4B0-EA00A9F338F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "recruitment-sdd_study_case_2/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "56C4DBBE-6847-46E4-A4B0-EA00A9F338F7 - dced7ff6b6944c18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (recruitment_sdd_study_case_2.PromoRequest.PromoRequestResult) -&gt; () in recruitment_sdd_study_case_2.ViewController.test() -&gt; ()"
+                  moduleName = "recruitment-sdd_study_case_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathankristian/Documents/recruitment-sdd_study_case_2/recruitment-sdd_study_case_2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "56C4DBBE-6847-46E4-A4B0-EA00A9F338F7 - dced7ff6b6944c79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (recruitment_sdd_study_case_2.PromoRequest.PromoRequestResult) -&gt; () in recruitment_sdd_study_case_2.ViewController.test() -&gt; ()"
+                  moduleName = "recruitment-sdd_study_case_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathankristian/Documents/recruitment-sdd_study_case_2/recruitment-sdd_study_case_2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "853B06F3-2443-48C9-B9E9-F7604D99B75C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "recruitment-sdd_study_case_2/Entity/Promo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init?(dictionary:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "853B06F3-2443-48C9-B9E9-F7604D99B75C - 5ebf58b9bccb3fb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "recruitment_sdd_study_case_2.Promo.init(dictionary: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;recruitment_sdd_study_case_2.Promo&gt;"
+                  moduleName = "recruitment-sdd_study_case_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathankristian/Documents/recruitment-sdd_study_case_2/recruitment-sdd_study_case_2/Entity/Promo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "853B06F3-2443-48C9-B9E9-F7604D99B75C - 5ebf58b9bccb3fb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "recruitment_sdd_study_case_2.Promo.init(dictionary: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;recruitment_sdd_study_case_2.Promo&gt;"
+                  moduleName = "recruitment-sdd_study_case_2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathankristian/Documents/recruitment-sdd_study_case_2/recruitment-sdd_study_case_2/Entity/Promo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "820">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

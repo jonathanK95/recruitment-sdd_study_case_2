@@ -19,6 +19,10 @@
 		E362011B2BBD02360075B3CF /* recruitment_sdd_study_case_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E362011A2BBD02360075B3CF /* recruitment_sdd_study_case_2Tests.swift */; };
 		E36201252BBD02360075B3CF /* recruitment_sdd_study_case_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36201242BBD02360075B3CF /* recruitment_sdd_study_case_2UITests.swift */; };
 		E36201272BBD02360075B3CF /* recruitment_sdd_study_case_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36201262BBD02360075B3CF /* recruitment_sdd_study_case_2UITestsLaunchTests.swift */; };
+		E36644F42BBDF3BD00308E61 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36644F32BBDF3BD00308E61 /* Extension.swift */; };
+		E36644F62BBDF3C800308E61 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36644F52BBDF3C800308E61 /* Constant.swift */; };
+		E36644F82BBDF3F500308E61 /* Promo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36644F72BBDF3F500308E61 /* Promo.swift */; };
+		E36644FB2BBDF4E200308E61 /* PromoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36644FA2BBDF4E200308E61 /* PromoRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,10 @@
 		E36201202BBD02360075B3CF /* recruitment-sdd_study_case_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recruitment-sdd_study_case_2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36201242BBD02360075B3CF /* recruitment_sdd_study_case_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recruitment_sdd_study_case_2UITests.swift; sourceTree = "<group>"; };
 		E36201262BBD02360075B3CF /* recruitment_sdd_study_case_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recruitment_sdd_study_case_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E36644F32BBDF3BD00308E61 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E36644F52BBDF3C800308E61 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E36644F72BBDF3F500308E61 /* Promo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promo.swift; sourceTree = "<group>"; };
+		E36644FA2BBDF4E200308E61 /* PromoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoRequest.swift; sourceTree = "<group>"; };
 		EA5AF26FA353FE05A9AA3EFA /* Pods_recruitment_sdd_study_case_2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recruitment_sdd_study_case_2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,7 +119,6 @@
 				D2CBD9BC615CD4E10CEA120D /* Pods-recruitment-sdd_study_case_2Tests.debug.xcconfig */,
 				C3A537F41AFE6573DE99E288 /* Pods-recruitment-sdd_study_case_2Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +147,9 @@
 		E36201022BBD02350075B3CF /* recruitment-sdd_study_case_2 */ = {
 			isa = PBXGroup;
 			children = (
+				E36644F22BBDF37700308E61 /* Interactor */,
+				E36644F12BBDF36700308E61 /* Entity */,
+				E36644F02BBDF35300308E61 /* View */,
 				E36201032BBD02350075B3CF /* AppDelegate.swift */,
 				E36201052BBD02350075B3CF /* SceneDelegate.swift */,
 				E36201072BBD02350075B3CF /* ViewController.swift */,
@@ -147,6 +157,8 @@
 				E362010C2BBD02360075B3CF /* Assets.xcassets */,
 				E362010E2BBD02360075B3CF /* LaunchScreen.storyboard */,
 				E36201112BBD02360075B3CF /* Info.plist */,
+				E36644F32BBDF3BD00308E61 /* Extension.swift */,
+				E36644F52BBDF3C800308E61 /* Constant.swift */,
 			);
 			path = "recruitment-sdd_study_case_2";
 			sourceTree = "<group>";
@@ -168,6 +180,37 @@
 			path = "recruitment-sdd_study_case_2UITests";
 			sourceTree = "<group>";
 		};
+		E36644F02BBDF35300308E61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E36644F12BBDF36700308E61 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E36644F72BBDF3F500308E61 /* Promo.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E36644F22BBDF37700308E61 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E36644F92BBDF43000308E61 /* Network */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E36644F92BBDF43000308E61 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E36644FA2BBDF4E200308E61 /* PromoRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,6 +222,7 @@
 				E36200FC2BBD02350075B3CF /* Sources */,
 				E36200FD2BBD02350075B3CF /* Frameworks */,
 				E36200FE2BBD02350075B3CF /* Resources */,
+				897E56FBB0B30E5CBFC3C4F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +260,7 @@
 				E362011C2BBD02360075B3CF /* Sources */,
 				E362011D2BBD02360075B3CF /* Frameworks */,
 				E362011E2BBD02360075B3CF /* Resources */,
+				E2C0E0497ED1FE9A1A8E4658 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -320,6 +365,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		897E56FBB0B30E5CBFC3C4F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-recruitment-sdd_study_case_2/Pods-recruitment-sdd_study_case_2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-recruitment-sdd_study_case_2/Pods-recruitment-sdd_study_case_2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-recruitment-sdd_study_case_2/Pods-recruitment-sdd_study_case_2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D69D7C5AC04DF0383A00FECA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +402,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C0E0497ED1FE9A1A8E4658 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-recruitment-sdd_study_case_2-recruitment-sdd_study_case_2UITests/Pods-recruitment-sdd_study_case_2-recruitment-sdd_study_case_2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-recruitment-sdd_study_case_2-recruitment-sdd_study_case_2UITests/Pods-recruitment-sdd_study_case_2-recruitment-sdd_study_case_2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-recruitment-sdd_study_case_2-recruitment-sdd_study_case_2UITests/Pods-recruitment-sdd_study_case_2-recruitment-sdd_study_case_2UITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E3EC5F6BE7A77EA4D5FFEF89 /* [CP] Check Pods Manifest.lock */ = {
@@ -372,8 +451,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E36201082BBD02350075B3CF /* ViewController.swift in Sources */,
+				E36644F82BBDF3F500308E61 /* Promo.swift in Sources */,
 				E36201042BBD02350075B3CF /* AppDelegate.swift in Sources */,
+				E36644F62BBDF3C800308E61 /* Constant.swift in Sources */,
 				E36201062BBD02350075B3CF /* SceneDelegate.swift in Sources */,
+				E36644FB2BBDF4E200308E61 /* PromoRequest.swift in Sources */,
+				E36644F42BBDF3BD00308E61 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,13 +640,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2NEKJPE;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "recruitment-sdd_study_case_2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Test Case 2";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,13 +672,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2NEKJPE;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "recruitment-sdd_study_case_2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Test Case 2";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -616,7 +705,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2NEKJPE;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "recruitment-sdd.recruitment-sdd-study-case-2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -637,7 +726,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2NEKJPE;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "recruitment-sdd.recruitment-sdd-study-case-2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -657,6 +746,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2NEKJPE;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "recruitment-sdd.recruitment-sdd-study-case-2UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -676,6 +766,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2NEKJPE;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "recruitment-sdd.recruitment-sdd-study-case-2UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
