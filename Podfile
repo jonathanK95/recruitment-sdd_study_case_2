@@ -6,8 +6,8 @@ target 'recruitment-sdd_study_case_2' do
   use_frameworks!
 
   # Pods for recruitment-sdd_study_case_2
-
   pod 'Alamofire'
+  pod 'SDWebImage'
 
   target 'recruitment-sdd_study_case_2Tests' do
     inherit! :search_paths

@@ -10,9 +10,14 @@
 		AB926B5ACDAE847A16B467E9 /* Pods_recruitment_sdd_study_case_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F716E2A0E648E0A7752028 /* Pods_recruitment_sdd_study_case_2.framework */; };
 		C233F9EA0D70ADCF05CB89A1 /* Pods_recruitment_sdd_study_case_2_recruitment_sdd_study_case_2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBD96327E2820FE8E466416 /* Pods_recruitment_sdd_study_case_2_recruitment_sdd_study_case_2UITests.framework */; };
 		DDF04CD2B0C032698E022C97 /* Pods_recruitment_sdd_study_case_2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5AF26FA353FE05A9AA3EFA /* Pods_recruitment_sdd_study_case_2Tests.framework */; };
+		E35A897D2BBE4D1F00CAD187 /* PromoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35A897C2BBE4D1F00CAD187 /* PromoTableCell.xib */; };
+		E35A89802BBE4D5700CAD187 /* MobileBankingDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A897F2BBE4D5700CAD187 /* MobileBankingDetailController.swift */; };
+		E35A89822BBE4ED500CAD187 /* FleksiDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A89812BBE4ED500CAD187 /* FleksiDetailController.swift */; };
+		E35A89842BBE4F3A00CAD187 /* WholesaleDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A89832BBE4F3A00CAD187 /* WholesaleDetailController.swift */; };
+		E35A89862BBE562000CAD187 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A89852BBE562000CAD187 /* HomeController.swift */; };
+		E35A89882BBE57A800CAD187 /* PromoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A89872BBE57A800CAD187 /* PromoTableCell.swift */; };
 		E36201042BBD02350075B3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36201032BBD02350075B3CF /* AppDelegate.swift */; };
 		E36201062BBD02350075B3CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36201052BBD02350075B3CF /* SceneDelegate.swift */; };
-		E36201082BBD02350075B3CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36201072BBD02350075B3CF /* ViewController.swift */; };
 		E362010B2BBD02350075B3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36201092BBD02350075B3CF /* Main.storyboard */; };
 		E362010D2BBD02360075B3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E362010C2BBD02360075B3CF /* Assets.xcassets */; };
 		E36201102BBD02360075B3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E362010E2BBD02360075B3CF /* LaunchScreen.storyboard */; };
@@ -51,10 +56,15 @@
 		C3A537F41AFE6573DE99E288 /* Pods-recruitment-sdd_study_case_2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruitment-sdd_study_case_2Tests.release.xcconfig"; path = "Target Support Files/Pods-recruitment-sdd_study_case_2Tests/Pods-recruitment-sdd_study_case_2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D2CBD9BC615CD4E10CEA120D /* Pods-recruitment-sdd_study_case_2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruitment-sdd_study_case_2Tests.debug.xcconfig"; path = "Target Support Files/Pods-recruitment-sdd_study_case_2Tests/Pods-recruitment-sdd_study_case_2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBCFEFAAB15CE2FB2522AE9C /* Pods-recruitment-sdd_study_case_2-recruitment-sdd_study_case_2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruitment-sdd_study_case_2-recruitment-sdd_study_case_2UITests.release.xcconfig"; path = "Target Support Files/Pods-recruitment-sdd_study_case_2-recruitment-sdd_study_case_2UITests/Pods-recruitment-sdd_study_case_2-recruitment-sdd_study_case_2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E35A897C2BBE4D1F00CAD187 /* PromoTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoTableCell.xib; sourceTree = "<group>"; };
+		E35A897F2BBE4D5700CAD187 /* MobileBankingDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileBankingDetailController.swift; sourceTree = "<group>"; };
+		E35A89812BBE4ED500CAD187 /* FleksiDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleksiDetailController.swift; sourceTree = "<group>"; };
+		E35A89832BBE4F3A00CAD187 /* WholesaleDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholesaleDetailController.swift; sourceTree = "<group>"; };
+		E35A89852BBE562000CAD187 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		E35A89872BBE57A800CAD187 /* PromoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoTableCell.swift; sourceTree = "<group>"; };
 		E36201002BBD02350075B3CF /* recruitment-sdd_study_case_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recruitment-sdd_study_case_2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36201032BBD02350075B3CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E36201052BBD02350075B3CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E36201072BBD02350075B3CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E362010A2BBD02350075B3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E362010C2BBD02360075B3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E362010F2BBD02360075B3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,6 +132,26 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E35A897B2BBE4C3700CAD187 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				E35A897C2BBE4D1F00CAD187 /* PromoTableCell.xib */,
+				E35A89872BBE57A800CAD187 /* PromoTableCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		E35A897E2BBE4D3B00CAD187 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E35A897F2BBE4D5700CAD187 /* MobileBankingDetailController.swift */,
+				E35A89812BBE4ED500CAD187 /* FleksiDetailController.swift */,
+				E35A89832BBE4F3A00CAD187 /* WholesaleDetailController.swift */,
+				E35A89852BBE562000CAD187 /* HomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E36200F72BBD02350075B3CF = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +182,6 @@
 				E36644F02BBDF35300308E61 /* View */,
 				E36201032BBD02350075B3CF /* AppDelegate.swift */,
 				E36201052BBD02350075B3CF /* SceneDelegate.swift */,
-				E36201072BBD02350075B3CF /* ViewController.swift */,
 				E36201092BBD02350075B3CF /* Main.storyboard */,
 				E362010C2BBD02360075B3CF /* Assets.xcassets */,
 				E362010E2BBD02360075B3CF /* LaunchScreen.storyboard */,
@@ -183,6 +212,8 @@
 		E36644F02BBDF35300308E61 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E35A897E2BBE4D3B00CAD187 /* Controller */,
+				E35A897B2BBE4C3700CAD187 /* TableCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35A897D2BBE4D1F00CAD187 /* PromoTableCell.xib in Resources */,
 				E36201102BBD02360075B3CF /* LaunchScreen.storyboard in Resources */,
 				E362010D2BBD02360075B3CF /* Assets.xcassets in Resources */,
 				E362010B2BBD02350075B3CF /* Main.storyboard in Resources */,
@@ -450,13 +482,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36201082BBD02350075B3CF /* ViewController.swift in Sources */,
 				E36644F82BBDF3F500308E61 /* Promo.swift in Sources */,
 				E36201042BBD02350075B3CF /* AppDelegate.swift in Sources */,
 				E36644F62BBDF3C800308E61 /* Constant.swift in Sources */,
 				E36201062BBD02350075B3CF /* SceneDelegate.swift in Sources */,
+				E35A89862BBE562000CAD187 /* HomeController.swift in Sources */,
 				E36644FB2BBDF4E200308E61 /* PromoRequest.swift in Sources */,
+				E35A89802BBE4D5700CAD187 /* MobileBankingDetailController.swift in Sources */,
+				E35A89842BBE4F3A00CAD187 /* WholesaleDetailController.swift in Sources */,
+				E35A89822BBE4ED500CAD187 /* FleksiDetailController.swift in Sources */,
 				E36644F42BBDF3BD00308E61 /* Extension.swift in Sources */,
+				E35A89882BBE57A800CAD187 /* PromoTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +585,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -612,7 +648,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -704,6 +740,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2NEKJPE;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
@@ -725,6 +762,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2NEKJPE;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
@@ -745,6 +783,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2NEKJPE;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
@@ -765,6 +804,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2NEKJPE;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;

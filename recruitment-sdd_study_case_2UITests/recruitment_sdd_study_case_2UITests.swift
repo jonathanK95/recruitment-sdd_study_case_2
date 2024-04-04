@@ -30,6 +30,45 @@ final class recruitment_sdd_study_case_2UITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
+    
+    func testHomeController() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let mainTable = app.tables.element(boundBy: 0)
+        XCTAssertEqual(mainTable.cells.count, 2)
+    }
+    
+    func testFleksiDetailController() throws {
+        let app = XCUIApplication()
+        app.launch()
+        app.buttons["Poster"].tap()
+        XCTAssertEqual(app.staticTexts["BNI Fleksi"].exists, true )
+    }
+    
+    func testMobileBankingDetailController() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let mainTable = app.tables.element(boundBy: 0)
+        XCTAssertEqual(mainTable.cells.count, 2)
+        
+        mainTable.cells.element(boundBy: 0).tap()
+        XCTAssertEqual(app.staticTexts["BNI Mobile Banking"].exists, true )
+    }
+    
+ 
+    
+    func testWholesaleDetailController() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let mainTable = app.tables.element(boundBy: 0)
+        XCTAssertEqual(mainTable.cells.count, 2)
+        
+        mainTable.cells.element(boundBy: 1).tap()
+        XCTAssertEqual(app.staticTexts["BNI Wholesale"].exists, true )
+    }
+    
+    
+    
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
             // This measures how long it takes to launch your application.
