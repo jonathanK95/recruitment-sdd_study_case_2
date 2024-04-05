@@ -29,7 +29,6 @@ final class recruitment_sdd_study_case_2UITests: XCTestCase {
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
     
     func testHomeController() throws {
         let app = XCUIApplication()
@@ -55,8 +54,6 @@ final class recruitment_sdd_study_case_2UITests: XCTestCase {
         XCTAssertEqual(app.staticTexts["BNI Mobile Banking"].exists, true )
     }
     
- 
-    
     func testWholesaleDetailController() throws {
         let app = XCUIApplication()
         app.launch()
@@ -66,8 +63,6 @@ final class recruitment_sdd_study_case_2UITests: XCTestCase {
         mainTable.cells.element(boundBy: 1).tap()
         XCTAssertEqual(app.staticTexts["BNI Wholesale"].exists, true )
     }
-    
-    
     
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
